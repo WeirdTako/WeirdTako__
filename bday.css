@@ -1,0 +1,87 @@
+html {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/374/828/non_2x/happy-birthday-and-party-background-free-photo.jpg);
+  background-size: 1450px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#navbar_all {
+  background-color: #3e759c;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#logo {
+  color: #d7f8ea;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.fa-solid {
+  margin-right: 0.7rem;
+  margin-top: -10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar_contents {
+  height: 80px;
+  font-size: 23px;
+}
+.navbar_links {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 2rem;
+  height: 100%;
+}
+
+#fa-house {
+  margin-top: 0.5px;
+  margin-right: -50px;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+}
+
+.navbar_links:hover {
+  color: #aaf0d1;
+  transition: all 0.3s ease;
+}
